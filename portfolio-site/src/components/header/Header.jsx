@@ -8,7 +8,7 @@ export const Header = () => {
   return (
     <div>
         <Navbar sticky="top" className="nav d-flex justify-content-start align-items-center">
-            <Container className="d-flex">
+            <Container className="d-flex" id="navInner">
                 <Navbar.Brand href="/">
                     <FontAwesomeIcon icon={faHouse} id="home"/>
                 </Navbar.Brand>

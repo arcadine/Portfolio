@@ -7,7 +7,7 @@
     color: white;
 }
 
-.hero-text-sec {
+.hero-txt-sec {
     margin-top: 0px;
     margin-bottom: 20px;
     padding: 10px;
@@ -16,8 +16,10 @@
 .hero-sec {
     padding: 10px;
     background-color: #382f4c;
-    background-image: '../../assets/philly skyline bg.jpg';
+    background-image: url('../../assets/philly skyline bg.jpg');
     background-position: bottom center;
     background-size: cover;
     min-height: 80vh;
+    width: 100%;
+    margin: 0;
 }
