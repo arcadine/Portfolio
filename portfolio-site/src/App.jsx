@@ -8,8 +8,9 @@ import Footer from './components/footer/Footer'
 function App() {
   return (
     <>
+      <Header />
       <div className="page-content d-flex flex-column justify-content-between">
-        <Header />
+        
         <Content />
         <Footer />
       </div>

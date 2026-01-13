@@ -6,8 +6,7 @@ import Navbar from 'react-bootstrap/Navbar'
 
 export const Header = () => {
   return (
-    <div>
-        <Navbar sticky="top" className="nav d-flex justify-content-start align-items-center">
+        <Navbar className="nav d-flex justify-content-start align-items-center">
             <Container className="d-flex" id="navInner">
                 <Navbar.Brand href="/">
                     <FontAwesomeIcon icon={faHouse} id="home"/>
@@ -27,7 +26,6 @@ export const Header = () => {
                 </div>
             </Container>
         </Navbar>
-    </div>
   )
 }
 
