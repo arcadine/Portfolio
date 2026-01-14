@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar'
 
 export const Header = () => {
   return (
+    <header>
         <Navbar className="nav d-flex justify-content-start align-items-center">
             <Container className="d-flex" id="navInner">
                 <Navbar.Brand href="/">
@@ -14,18 +15,19 @@ export const Header = () => {
                 <div className="collapse navbar-collapse d-flex" id="navbarSupportedContent">
                     <ul className="navbar-nav mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="#professional">Professional Work</a>
+                            <a className="nav-link" href="/professional">Professional Work</a>
                         </li> 
                         <li className="nav-item">
-                            <a className="nav-link" href="#personal">Personal Projects</a>
+                            <a className="nav-link" href="/personal">Personal Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact">Contact</a>
+                            <a className="nav-link" href="/#contact">Contact</a>
                         </li>             
                     </ul>
                 </div>
             </Container>
         </Navbar>
+    </header>
   )
 }
 
