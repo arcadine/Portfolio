@@ -1,30 +1,24 @@
 import './header.css';
-import Container from 'react-bootstrap/Container';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
-import Navbar from 'react-bootstrap/Navbar'
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 export const Header = () => {
   return (
     <header>
-        <Navbar className="nav d-flex justify-content-start align-items-center">
+        <Navbar expand="md" className="nav d-flex align-items-center">
             <Container className="d-flex" id="navInner">
                 <Navbar.Brand href="/">
                     <FontAwesomeIcon icon={faHouse} id="home"/>
                 </Navbar.Brand>
-                <div className="collapse navbar-collapse d-flex" id="navbarSupportedContent">
-                    <ul className="navbar-nav mb-lg-0">
-                        <li className="nav-item">
-                            <a className="nav-link" href="/professional">Professional Work</a>
-                        </li> 
-                        <li className="nav-item">
-                            <a className="nav-link" href="/personal">Personal Projects</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/#contact">Contact</a>
-                        </li>             
-                    </ul>
-                </div>
+                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link className="nav-item nav-link" href="/professional"> Professional Work</Nav.Link>
+                        <Nav.Link className="nav-item nav-link" href="/personal">Personal Projects</Nav.Link>
+                        <Nav.Link className="nav-item nav-link" href="/#contact">Contact</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     </header>

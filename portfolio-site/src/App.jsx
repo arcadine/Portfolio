@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './components/header/Header';
-import Content from './components/content/Content';
 import Home from './pages/home/Home';
 import Professional from './pages/professional/Professional';
 import Personal from './pages/personal/Personal';

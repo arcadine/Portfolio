@@ -13,7 +13,7 @@ h1 {
 	font-weight: 700;
 	font-size: 48px;
 	color: white;
-  text-align: center;
+  	text-align: center;
 }
 
 h2 {
@@ -24,10 +24,10 @@ h2 {
 }
 
 h3 {
-  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-  font-size: 24px;
-  font-weight: 600;
-  color: black;
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: black;
 }
 
 p {
@@ -36,6 +36,10 @@ p {
 	color: black;
 	font-size: 20px;
 	line-height: 1.5;
+}
+
+.bottom-sec {
+	padding-bottom: 20px;
 }
 
 .btn {
@@ -53,6 +57,31 @@ p {
 	color: white;
 	transition: none;
 	font-weight: 500;
+}
+
+.hero-p {
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+}
+
+.hero-txt-sec {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.hero-sec {
+    padding: 10px;
+    background-color: #382f4c;
+    background-position: bottom center;
+    background-size: cover;
+    min-height: 80vh;
+    width: 100%;
+    margin: 0;
 }
 
 .img-sec {
@@ -73,16 +102,46 @@ p {
 .page-sec-inner {
     width: 100%;
     max-width: 1140px;
-    gap: 0px;
+    gap: 0px 15px;
     margin: 0 auto;
+	flex-direction: row;
 }
 
 .text-sec {
     padding: 10px;
     width: 50%;
+	flex-direction: column;
+}
+
+.top-sec {
+	padding-top: 80px;
 }
 
 @media only screen and (max-width: 768px) {
+	.img-sec {
+		width: 85%;
+		padding: 8px;
+	}
+	
+	.page-sec {
+		padding: 40px 20px;
+	}
+
+	.page-sec-inner {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.text-sec {
+		align-items: center; 
+		width: 85%;
+		padding: 8px;
+	}
+
+	.top-sec {
+		padding-top: 60px;
+	}
+	
 	h1 {
 		font-size: 40px;
 	}
@@ -91,9 +150,9 @@ p {
 		font-size: 30px;
 	}
 
-  h3 {
-    font-size: 22px;
-  }
+	h3 {
+		font-size: 22px;
+	}
 
 	p {
 		font-size: 19px;
@@ -101,6 +160,28 @@ p {
 }
 
 @media only screen and (max-width: 425px) {
+	.img-sec {
+		width: 90%;
+		padding: 5px;
+	}
+	
+	.page-sec { 
+		padding: 30px 15px;
+	}
+
+	.page-sec-inner {
+		width: 100%;
+	}
+
+	.text-sec {
+		width: 90%;
+		padding: 5px;
+	}
+
+	.top-sec {
+		padding-top: 50px;
+	}
+	
 	h1 {
 		font-size: 32px;
 	}
@@ -109,9 +190,9 @@ p {
 		font-size: 26px;
 	}
 
-  h3 {
-    font-size: 20px;
-  }
+	h3 {
+		font-size: 20px;
+	}
 
 	p {
 		font-size: 18px;

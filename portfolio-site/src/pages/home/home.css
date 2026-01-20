@@ -1,5 +1,6 @@
 #btnSec {
     gap: 20px;
+    flex-direction: row;
 }
 
 #headshot {
@@ -9,28 +10,18 @@
     width: 70%;
 }
 
-.hero-p {
-    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 1.5;
-    color: white;
-}
-
-.hero-txt-sec {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-
-.hero-sec {
-    padding: 10px;
-    background-color: #382f4c;
+#homeHero {
     background-image: url('../../assets/philly skyline bg.jpg');
-    background-position: bottom center;
-    background-size: cover;
-    min-height: 80vh;
-    width: 100%;
-    margin: 0;
+    background-position: center bottom;
+}
+
+@media only screen and (max-width: 425px) {
+    #btnSec {
+        flex-direction: column;
+    }
+
+    #homeHero {
+        background-image: url('../../assets/plain skyline bg.jpg');
+    }
+
 }
