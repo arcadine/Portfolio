@@ -6,20 +6,25 @@ import Professional from './pages/professional/Professional';
 import Personal from './pages/personal/Personal';
 import Footer from './components/footer/Footer';
 import { Routes, Route } from 'react-router-dom';
-
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
       <div className="page-content d-flex flex-column justify-content-between">
         <Header />
+
+        <ScrollToTop />
+
         <Routes>
-          <Route path="/Portfolio" element={<Home />} />
-          <Route path="/Portfolio/professional" element={<Professional/>} />
-          <Route path="/Portfolio/personal" element={<Personal/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/professional" element={<Professional/>} />
+          <Route path="/personal" element={<Personal/>}/>
         </Routes>
+        
         <Footer />
       </div>
+
     </>
   )
 }

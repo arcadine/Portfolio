@@ -19,7 +19,7 @@ const Professional = () => {
 
         {/* professional work intro section */}
         <Container fluid className="d-flex flex-column align-items-center page-sec top-sec">
-            <div id="professional">
+            <div>
                 <h2>My Experience</h2>
             </div>
 

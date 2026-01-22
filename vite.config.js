@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     svgrPlugin(),
   ],
-  base: "/Portfolio",
+  base: '/Portfolio/',
 });

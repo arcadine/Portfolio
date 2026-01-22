@@ -30,7 +30,7 @@ const Personal = () => {
 
         {/* personal projects intro section */}
         <Container fluid className="d-flex flex-column align-items-center page-sec top-sec" id="perSec">
-            <div id="personal">
+            <div>
                 <h2>Background</h2>
             </div>
 
