@@ -14,9 +14,9 @@ function App() {
       <div className="page-content d-flex flex-column justify-content-between">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/professional" element={<Professional/>} />
-          <Route path="/personal" element={<Personal/>}/>
+          <Route path="/Portfolio" element={<Home />} />
+          <Route path="/Portfolio/professional" element={<Professional/>} />
+          <Route path="/Portfolio/personal" element={<Personal/>}/>
         </Routes>
         <Footer />
       </div>
