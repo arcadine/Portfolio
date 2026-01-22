@@ -9,7 +9,7 @@ export const Header = () => {
         <Navbar expand="md" className="nav d-flex align-items-center">
             <Container className="d-flex" id="navInner">
                 <Navbar.Brand href="/">
-                    <FontAwesomeIcon icon={faHouse} id="home"/>
+                    <FontAwesomeIcon aria-label="Home" icon={faHouse} id="home"/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">

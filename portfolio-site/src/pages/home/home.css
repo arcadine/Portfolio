@@ -1,6 +1,9 @@
-#btnSec {
+#contactCard {
+    background-color: #DED9E8;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #382f4c;
     gap: 20px;
-    flex-direction: row;
 }
 
 #headshot {
@@ -15,11 +18,26 @@
     background-position: center bottom;
 }
 
-@media only screen and (max-width: 425px) {
-    #btnSec {
+.btn-sec {
+    gap: 20px;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-sec {
+        gap: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 560px) {    
+    .btn-sec {
         flex-direction: column;
     }
 
+}
+
+@media only screen and (max-width: 425px) {
     #homeHero {
         background-image: url('../../assets/plain skyline bg.jpg');
     }

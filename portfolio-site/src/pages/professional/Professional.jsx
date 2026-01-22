@@ -17,10 +17,10 @@ const Professional = () => {
             </div>
         </Container>
 
-        {/* professional work section */}
+        {/* professional work intro section */}
         <Container fluid className="d-flex flex-column align-items-center page-sec top-sec">
             <div id="professional">
-                <h2>My Background</h2>
+                <h2>My Experience</h2>
             </div>
 
             <div className="d-flex page-sec-inner align-items-center">
@@ -72,7 +72,7 @@ const Professional = () => {
                 </div>
 
                 <div className="img-sec">
-                    <img src={responsive} alt="Abstract image showing responsive web design on desktop, laptop, tablet, and mobile devices." className="side-pic"/>
+                    <img src={responsive} alt="PTZOptics homepage responsive web design on desktop, laptop, tablet, and mobile devices." className="side-pic"/>
                 </div>
 
             </div>

@@ -1,6 +1,11 @@
 import './home.css';
 import Container from 'react-bootstrap/Container';
 import headshot from "../../assets/Diego Jorge headshot circle.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+
 
 const Home = () => {
   return (
@@ -21,14 +26,14 @@ const Home = () => {
               <img src={headshot} alt="Diego Jorge headshot" id="headshot"/>
             </div>
 
-            <div className="d-flex text-sec">
+            <div className="d-flex text-sec" id="bio">
               <h2>
                 About Me
               </h2>
               <p>
-                I'm passionate about bridging the gap between design and development by translating UI/UX concepts and ideas into front-end implementations using a variety of tools and frameworks, such as WordPress and React. Y también hablo español! <br/> Check out some of my work below.
+                I'm passionate about bridging the gap between design and development by translating UI/UX concepts and ideas into front-end implementations using a variety of tools and frameworks, such as WordPress and React. Y también hablo español! Check out some of my work below.
               </p>
-              <div className="d-flex align-items-center" id="btnSec">
+              <div className="d-flex align-items-center btn-sec">
                 <a className="btn" href="/professional">Professional Work</a>
                 <a className="btn" href="/personal">Personal Projects</a>
               </div>
@@ -39,8 +44,15 @@ const Home = () => {
 
         {/* contact section */}
         <Container fluid className="d-flex flex-column align-items-center page-sec">
-            <div>
+            <div className="d-flex flex-column align-items-center" id="contactCard">
                 <h2 id="contact">Contact</h2>
+                <div className="d-flex btn-sec">
+                    <a className="btn d-flex flex-row align-items-center" href="https://github.com/arcadine" target="_blank"><FontAwesomeIcon aria-hidden="true" icon={faGithub} className="cont-icon"/> Github</a>
+
+                    <a className="btn d-flex flex-row align-items-center" href="https://www.linkedin.com/in/diegojorge97/" target="_blank"><FontAwesomeIcon aria-hidden="true" icon={faLinkedin} className="cont-icon"/> LinkedIn</a>
+
+                    <a className="btn d-flex flex-row align-items-center" href="mailto:diegoarcadine@gmail.com"><FontAwesomeIcon aria-hidden="true" icon={faEnvelope} className="cont-icon"/> Email</a>
+                </div>
             </div>
         </Container>
     </div>
