@@ -45,7 +45,7 @@ const Home = () => {
         {/* contact section */}
         <Container fluid className="d-flex flex-column align-items-center page-sec">
             <div className="d-flex flex-column align-items-center" id="contactCard">
-                <h2 id="contact">Contact</h2>
+                <h2 id="contact">Contact Me</h2>
                 <div className="d-flex btn-sec">
                     <a className="btn d-flex flex-row align-items-center" href="https://github.com/arcadine" target="_blank"><FontAwesomeIcon aria-hidden="true" icon={faGithub} className="cont-icon"/> Github</a>
 
