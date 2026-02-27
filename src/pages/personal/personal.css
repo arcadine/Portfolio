@@ -11,66 +11,6 @@
     padding-top: 0;
 }
 
-.card {
-    background-color: #ded9e8;
-    width: 49%;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px 0px #382F4C;
-}
-
-.card-bottom {
-    background-color: white;
-    padding: 20px;
-    gap: 15px;
-    border-radius: 0 0 15px 15px;
-}
-
-.card-btn {
-	background-color: #2c4224;
-	color: white;
-	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-	font-size: 18px;
-	font-weight: 500;
-	padding: 12px 24px;
-    text-align: center;
-	text-decoration: none;
-    border-radius: 3px;
-}
-.card-btn:hover,
-.card-btn:active {
-	background-color: #090d07;
-	color: white;
-	transition: none;
-	font-weight: 500;
-}
-
-.card-pic {
-    vertical-align: middle;
-    text-align: center;
-    width: 90%;
-}
-
-.card-sec {
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 20px;
-    width: 100%;
-    max-width: 1140px;
-    padding: 20px 20px 60px 20px;
-}
-
-.card-top {
-    border-radius: 0px;
-    padding: 20px 20px 40px 20px;
-    gap: 20px;
-    text-align: center;
-
-}
-
-.card-txt {
-    font-size: 16px;
-}
-
 .icon-sec {
     gap: 20px;
     flex-wrap: wrap;
@@ -86,33 +26,15 @@
     display: block;
 }
 
-@media only screen and (max-width: 1080px) {
-    .card {
-        width: 47%;
-    }
-
-}
 
 @media only screen and (max-width: 768px) {
     #perHero {
         min-height: 70vh;
-    }
-
-    .card {
-        width: 85%;
-    }
-
-    .card-sec {
-        max-width: 100%;
     }
 }
 
 @media only screen and (max-width: 425px) {
     #perHero {
         min-height: 50vh;
-    }
-
-    .card {
-        width: 100%;
     }
 }

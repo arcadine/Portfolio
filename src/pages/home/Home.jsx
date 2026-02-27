@@ -38,7 +38,7 @@ const Home = () => {
             </div>
 
             <div className="d-flex text-sec" id="bio">
-              <h2>
+              <h2 id="abtMe">
                 About Me
               </h2>
               <p>

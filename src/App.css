@@ -12,7 +12,7 @@ h1 {
 	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 48px;
-	color: white;
+	color: #FEFBEA;
   	text-align: center;
 	margin-bottom: 0;
 }
@@ -22,7 +22,7 @@ h2 {
 	font-weight: 700;
 	font-size: 32px;
 	color: #382f4c;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 h3 {
@@ -45,7 +45,7 @@ h4 {
 
 p {
 	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
-	font-weight: 500;
+	font-weight: 400;
 	color: black;
 	font-size: 20px;
 	line-height: 1.5;
@@ -75,13 +75,88 @@ p {
 	font-weight: 500;
 }
 
+.card {
+    background-color: #ded9e8;
+    width: 49%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #382F4C;
+}
+
+.card-bottom {
+    background-color: white;
+    padding: 20px;
+    gap: 15px;
+    border-radius: 0 0 15px 15px;
+}
+
+.card-btn {
+	background-color: #2c4224;
+	color: white;
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 12px 24px;
+    text-align: center;
+	text-decoration: none;
+    border-radius: 3px;
+}
+.card-btn:hover,
+.card-btn:active {
+	background-color: #090d07;
+	color: white;
+	transition: none;
+	font-weight: 500;
+}
+
+.card-full {
+    border-radius: 0px;
+    padding: 40px;
+    gap: 20px;
+    text-align: center;
+}
+
+.card-pic {
+    vertical-align: middle;
+    text-align: center;
+    width: 90%;
+}
+
+.card-pic-2 {
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+	border-radius: 15px 15px 0 0;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 9px;
+	margin-bottom: 5px;
+}
+
+.card-sec {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    max-width: 1140px;
+    padding: 20px 20px 0px 20px;
+}
+
+.card-top {
+    border-radius: 0px;
+    padding: 20px 20px 40px 20px;
+    gap: 20px;
+    text-align: center;
+}
+
+.card-txt {
+    font-size: 16px;
+}
+
 .hero-p {
     font-family: "Noto Sans", Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 22px;
     font-weight: 500;
     line-height: 1.5;
-    color: white;
+    color: #FEFBEA;
 }
 
 .hero-txt-sec {
@@ -112,7 +187,7 @@ p {
 
 .page-sec {
     padding: 60px 20px;
-    background-color: #CCC9A3;
+    background-color: #FEFBEA;
 }
 
 .page-sec-inner {
@@ -133,11 +208,26 @@ p {
 	padding-top: 80px;
 }
 
+@media only screen and (max-width: 1080px) {
+    .card {
+        width: 47%;
+    }
+
+}
+
 @media only screen and (max-width: 768px) {
 	.img-sec {
 		width: 85%;
 		padding: 8px;
 	}
+
+	.card {
+        width: 85%;
+    }
+
+    .card-sec {
+        max-width: 100%;
+    }
 	
 	.page-sec {
 		padding: 40px 20px;
@@ -176,6 +266,10 @@ p {
 }
 
 @media only screen and (max-width: 425px) {
+	.card {
+        width: 100%;
+    }
+	
 	.img-sec {
 		width: 90%;
 		padding: 5px;
