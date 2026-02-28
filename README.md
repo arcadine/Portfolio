@@ -1,3 +1,9 @@
+# My Portfolio Site
+
+This Github Pages site contains my contact information, examples of work I published at my previous role (as well as design considerations), and projects I completed for OnlineClassrooms' front-end web developer course. As I no longer have access to any of the WordPress code files for the work I completed at my previous role, and given that much of the work I completed was made in the page builder Elementor, the best place to find my code samples is on the personal projects page.
+
+Below is the original content of this README created by the React Vite installation.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
