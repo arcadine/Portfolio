@@ -143,7 +143,7 @@ const Personal = () => {
                 <div className="d-flex flex-column card">
                     <div className="d-flex flex-column justify-content-center align-items-center card-top">
                         <img src={groupo} alt="Groupomania logo" className="card-pic"/>
-                        <h3>Building a Full-Stack Social Media Solution</h3>
+                        <h3>Full-Stack Social Media Solution</h3>
                         <p className="card-txt">
                             I created a full-stack solution for a simple, secure social media platform tailored to the client's needs.
                         </p>
