@@ -1,7 +1,7 @@
 import './home.css';
 import Container from 'react-bootstrap/Container';
 import { NavLink } from 'react-router-dom';
-import headshot from "../../assets/Diego Jorge headshot circle.png";
+import headshot from "../../assets/Diego Jorge headshot circle.webp";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';

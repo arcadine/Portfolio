@@ -167,7 +167,7 @@ p {
 
 .hero-sec {
     padding: 10px;
-    background-color: #382f4c;
+    background-color: #fefbea;
     background-position: bottom center;
     background-size: cover;
     min-height: 80vh;
@@ -226,8 +226,8 @@ p {
 
 @media only screen and (max-width: 768px) {
 	.img-sec {
-		width: 85%;
-		padding: 8px;
+		width: 100%;
+		padding: 0;
 	}
 
 	.card {
@@ -244,13 +244,13 @@ p {
 
 	.page-sec-inner {
 		flex-direction: column;
-		width: 100%;
+		width: 85%;
 	}
 
 	.text-sec {
 		align-items: center; 
-		width: 85%;
-		padding: 8px;
+		width: 100%;
+		padding: 0 0 20px 0;
 	}
 
 	.top-sec {
@@ -276,25 +276,19 @@ p {
 
 @media only screen and (max-width: 425px) {
 	.card {
-        width: 100%;
+        width: 90%;
     }
-	
-	.img-sec {
-		width: 90%;
-		padding: 5px;
-	}
 	
 	.page-sec { 
 		padding: 30px 15px;
 	}
 
 	.page-sec-inner {
-		width: 100%;
+		width: 90%;
 	}
 
 	.text-sec {
-		width: 90%;
-		padding: 5px;
+		padding-bottom: 15px;
 	}
 
 	.top-sec {

@@ -22,8 +22,8 @@
 }
 
 #homeHero {
-    background-image: url('../../assets/philly skyline bg.jpg');
-    background-position: center bottom;
+    background-image: url('../../assets/philly skyline bg gradient.webp');
+    background-position: bottom center;
 }
 
 .btn-sec {
@@ -43,11 +43,18 @@
         flex-direction: column;
     }
 
+    #contactCard {
+        width: 85%;
+    }
 }
 
 @media only screen and (max-width: 425px) {
     #homeHero {
-        background-image: url('../../assets/plain skyline bg.jpg');
+        background-image: url('../../assets/plain skyline bg gradient.webp');
+    }
+
+    #contactCard {
+        width: 90%;
     }
 
 }
