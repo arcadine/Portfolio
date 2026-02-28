@@ -101,8 +101,8 @@ const Professional = () => {
 
         {/* Accessibility section */}
         <Container fluid className="d-flex flex-column align-items-center page-sec">
-            <div className="prof-subh">
-                    <h2>Design Considerations</h2>
+            <div className="prof-subh page-sec-inner">
+                    <h2 style={{textAlign: "center",}}>Design Considerations</h2>
             </div>
             <div className="d-flex page-sec-inner align-items-center">
                 <div className="text-sec">
